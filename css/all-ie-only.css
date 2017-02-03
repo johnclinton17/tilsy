@@ -1,0 +1,52 @@
+html[data-useragent*='MSIE 10.0'] h1 {
+  color: blue;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+/* IE 9
+	col-f-4 { width: calc(100% / 12 * 4 - 0px);} 
+	where fail because it does not support 33.333%, so we had change as width: 33%;
+ */
+@media all and (min-width: 1001px){
+	.col-f-4{
+		width: 33%;
+	}
+}
+
+/*
+	Flex is not support in IE,
+	 for IE 10 we had add -ms as prefix
+	 for IE 9,8 we had changed into percentage 
+*/
+@media all and (min-width: 214px) {
+	.navbar-1{
+	  display: flex;
+	  -ms-display: flex;
+	  flex-direction: column;
+	  justify-content: space-between;
+	  flex: 1;
+	}
+}
+
+@media all and (min-width: 640px) {
+  .navbar-1{
+    flex-direction: row;
+    -ms-flex-direction: row;
+    display: block;
+  }
+	.logo{ width: 10%; float: left;}
+	.main-navigation { width: 52%; float: right;}
+}
+
+@media all and (min-width: 1030px) {
+  .navbar-1{
+    flex: none;
+    -ms-flex: none;
+  }
+}
+
+
