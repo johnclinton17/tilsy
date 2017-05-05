@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link rel="icon" type="image/png" href="image/john.jpg">
+    <title>JC-Portfolio</title>
+
+    <!-- Bootstrap -->
+    
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+  </head>
+  <body>
+    <!--navbar -->
+      <!--HamBurger Icon-->
+<div class="bars" id="nav-action">
+  <span class="bar"> </span>
+</div>
+
+<!--Navbar Links-->
+<nav id="nav">
+  <ul>
+    <!-- <li class="shape-circle circle-one"><a href="#">Contact</a></li> -->
+    <li class="shape-circle circle-two"><a href="#">Contact</a></li>
+    <li class="shape-circle circle-three"><a href="#">Work</a></li>
+    <li class="shape-circle circle-five">
+      <a href="#">Home</a>
+    </li>
+  </ul>
+</nav>
+
+<!--Main Body Content-->
+<article class="container">
+  <img src="image/Coming-Soon.png" alt="coming soon">
+</article>
+
+
+
+
+
+    <!--scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+      // Setting up the Variables
+var bars = document.getElementById("nav-action");
+var nav = document.getElementById("nav");
+
+
+//setting up the listener
+bars.addEventListener("click", barClicked, false);
+
+
+//setting up the clicked Effect
+function barClicked() {
+  bars.classList.toggle('active');
+  nav.classList.toggle('visible');
+}
+
+    </script>
+ </body>
+ </html> 
+  
+  
+  
