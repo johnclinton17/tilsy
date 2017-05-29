@@ -321,8 +321,8 @@ ul {
 nav.visible li:first-child {
     width: 200vw;
     height: 151vw;
-    top: -100vw;
-    right: -144vw;
+    top: -94vw;
+    right: -128vw;
     z-index: 5;
     transition: all .2s ease-in-out;
     box-shadow: 0 0px 80px rgba(4, 26, 62, 0.5);
@@ -331,8 +331,8 @@ nav.visible li:first-child {
 nav.visible li:nth-child(2) {
     width: 150vw;
     height: 109vw;
-    top: -75vw;
-    right: -110vw;
+    top: -67vw;
+    right: -99vw;
     z-index: 6;
     transition: all .3s ease-in-out;
     box-shadow: 0 0px 80px rgba(4, 26, 62, 0.5);
