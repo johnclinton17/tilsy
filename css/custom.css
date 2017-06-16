@@ -7,7 +7,21 @@ Author: Niyati Technologies
 body{font-family: 'SEGOEUI-reg','SegoeUI-Light','SegoeUI-Bold','SegoeUI-SemiBold';}
 .margin-25 {margin-top: 25px; }
 .pad0 {padding: 0; }
-
+-a, a:hover, a:focus{ outline:none;text-decoration: none;}
+ -.home_banner{ background: url("../images/home-banner.jpg") no-repeat scroll center top / cover ; width:100%; }
+ -header { padding:50px 0; color:#fff}
+ -.banner-text {padding: 75px 0px; }
+ -.banner-text h3 { font-size: 50px;line-height: 35px;color: #000;  padding: 10px 0px; font-family: 'SegoeUI-Light'; }
+ -.banner-text p {font-size: 26px;line-height: 33px; color: #000; padding: 10px 580px 0px 0px; margin: 0;font-family: 'SegoeUI-SemiBold';}
+ -span.red { color: #cc3333; }
+ -section.red-band { background: #d24726; display: block;padding: 50px 0px; }
+ -span.box-title {color: #fff;font-size: 26px;line-height: 60px;font-family: 'SEGOEUI-reg'; }
+ -ul.white-tick {list-style-type: none;padding-left: 00px; }
+ -ul.white-tick li { font-size: 16px; line-height: 30px;color: #fff;font-family: 'SEGOEUI-reg';padding-left:30px;background: url("../images/white-tick.png") no-repeat 0px 8px; }
+ -section.reasons-section {padding: 50px 0px 80px;overflow: auto;display: block;clear: both;background: #f8f8f8; }
+ -h4.section-title {color: #000; line-height: 45px; padding-right: 300px; font-size: 35px;font-family: 'SEGOEUI-reg'; }
+ -span.segeo-light{font-family: 'SegoeUI-Light';}
+ -h5.icon-title {font-size: 20px;color: #000;line-height: 45px; padding-left: 55px;font-family: 'SegoeUI-SemiBold'; }
 /*responsive code starts here*/
 @media (max-width: 1024px){
 .form-section h5 {font-size: 17px;}
