@@ -652,7 +652,6 @@ body{font-family: 'SEGOEUI-reg','SegoeUI-Light','SegoeUI-Bold','SegoeUI-SemiBold
 .pad0 {padding: 0; }
 a, a:hover, a:focus{ outline:none;text-decoration: none;}
 .home_banner{ background: url("../images/home-banner.jpg") no-repeat scroll center top / cover ; width:100%; position: relative;}
-header { padding:50px 0; color:#fff}
 .banner-text {padding: 75px 10px; }
 .banner-text h3 { font-size: 50px;line-height: 35px;color: #000;  padding: 10px 0px; font-family: 'SegoeUI-Light'; }
 .banner-text p {font-size: 35px;line-height: 43px;color: #000;padding: 10px 645px 0px 0px;margin: 0;font-family: 'SegoeUI-SemiBold'; }
@@ -673,7 +672,7 @@ p.box-content { font-size: 15px; line-height: 26px;color: #666;padding-right: 15
 .pad0:nth-child(5) h5.icon-title{ background: url("../images/services.png") no-repeat 0px 0px;}
 .pad0:last-child h5.icon-title{ background: url("../images/profesionalisim.png") no-repeat 0px 0px;}
 h5.icon-title.Testimonials{ background: url("../images/testimonials.png") no-repeat 0px 0px;padding-left: 45px;}
-.form-section {background: #fff;width: 100%;height: auto;position: relative;top: -200px;box-shadow: 1px 1px 14px 7px rgba(0,0,0,0.1); padding:30px 50px;}
+.form-section {background: #fff;width: 100%;height: auto;position: relative;box-shadow: 1px 1px 14px 7px rgba(0,0,0,0.1); padding:30px 50px;}
 .smart-section h4{text-align: center;color: #fff;font-size:35px ;line-height: 65px;font-family: 'SegoeUI-SemiBold';}
 .smart-section p{text-align: center;color: #fff;font-size:31px ;line-height: 45px;font-family: 'SegoeUI-Light'; padding:0px 100px;}
 .smart-section p {text-align: center;color: #fff;font-size: 31px;line-height: 45px;font-family: 'SegoeUI-Light';padding: 0px 180px 30px; }
