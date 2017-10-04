@@ -211,11 +211,11 @@ header {
 }
 
 .app__content {
-  width: 320px;
-  height: 100%;
-  margin: 0 auto;
-  margin-top: 56px;
-  padding-top: 10px;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 56px;
+    padding-top: 10px;
 }
 
 .toast__container {
@@ -638,3 +638,127 @@ b i a {
 #butRefresh {
     background: url(/images/ic_refresh_white_24px.svg) center center no-repeat; 
 }
+
+@font-face {font-family: 'SegoeUI-Light'; src: url('../fonts/SegoeUI-Light.woff') format('woff'), url('../fonts/SegoeUI-Light.ttf') format('truetype'),url('../fonts/SegoeUI-Light.svg#SegoeUI-Light') format('svg'); font-weight: normal; font-style: normal;}
+@font-face { font-family: 'SegoeUI-SemiBold';src: url('../fonts/SegoeUI-SemiBold.woff') format('woff'),url('../fonts/SegoeUI-SemiBold.ttf') format('truetype'),url('../fonts/SegoeUI-SemiBold.svg#SegoeUI-SemiBold') format('svg');font-weight: normal;font-style: normal;}
+@font-face {  font-family: 'SegoeUIBlack';src: url('../fonts/SegoeUIBlack.woff') format('woff'),url('../fonts/SegoeUIBlack.ttf') format('truetype'),url('../fonts/SegoeUIBlack.svg#SegoeUIBlack') format('svg');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'SegoeUI-Bold';src: url('../fonts/SegoeUI-Bold.woff') format('woff'), url('../fonts/SegoeUI-Bold.ttf') format('truetype'), url('../fonts/SegoeUI-Bold.svg#SegoeUI-Bold') format('svg');  font-weight: normal;  font-style: normal;}
+@font-face {font-family: 'SEGOEUI-reg';src: url('../fonts/SEGOEUI_0.eot');src: url('../fonts/SEGOEUI_0.woff2') format('woff2'),url('../fonts/SEGOEUI_0.eot?#iefix') format('embedded-opentype'); font-weight: normal; font-style: normal;}
+
+
+
+body{font-family: 'SEGOEUI-reg','SegoeUI-Light','SegoeUI-Bold','SegoeUI-SemiBold';}
+.margin-25 {margin-top: 25px; }
+.pad0 {padding: 0; }
+a, a:hover, a:focus{ outline:none;text-decoration: none;}
+.home_banner{ background: url("../images/home-banner.jpg") no-repeat scroll center top / cover ; width:100%; position: relative;}
+header { padding:50px 0; color:#fff}
+.banner-text {padding: 75px 10px; }
+.banner-text h3 { font-size: 50px;line-height: 35px;color: #000;  padding: 10px 0px; font-family: 'SegoeUI-Light'; }
+.banner-text p {font-size: 35px;line-height: 43px;color: #000;padding: 10px 645px 0px 0px;margin: 0;font-family: 'SegoeUI-SemiBold'; }
+span.red { color: #cc3333;}
+section.red-band { background: #d24726; display: block;padding: 50px 0px; }
+span.box-title {color: #fff;font-size: 26px;line-height: 60px;font-family: 'SEGOEUI-reg'; }
+ul.white-tick {list-style-type: none;padding-left: 00px; }
+ul.white-tick li { font-size: 16px; line-height: 30px;color: #fff;font-family: 'SEGOEUI-reg';padding-left:30px;background: url("../images/white-tick.png") no-repeat 0px 8px; }
+section.reasons-section {padding: 50px 0px 80px;overflow: auto;display: block;clear: both;background: #f8f8f8; }
+h4.section-title {color: #000; line-height: 45px; padding-right: 300px; font-size: 35px;font-family: 'SEGOEUI-reg'; }
+span.segeo-light{font-family: 'SegoeUI-Light';}
+h5.icon-title {font-size: 20px;color: #000;line-height: 45px; padding-left: 55px;font-family: 'SegoeUI-SemiBold'; }
+p.box-content { font-size: 15px; line-height: 26px;color: #666;padding-right: 15px;text-align: justify;font-family: 'SEGOEUI-reg';min-height: 180px;}
+.pad0:first-child h5.icon-title{ background: url("../images/low-cost.png") no-repeat 0px 0px;}
+.pad0:nth-child(2) h5.icon-title{ background: url("../images/efficiency.png") no-repeat 0px 0px;}
+.pad0:nth-child(3) h5.icon-title{ background: url("../images/time.png") no-repeat 0px 0px;}
+.pad0:nth-child(4) h5.icon-title{ background: url("../images/client.png") no-repeat 0px 0px;}
+.pad0:nth-child(5) h5.icon-title{ background: url("../images/services.png") no-repeat 0px 0px;}
+.pad0:last-child h5.icon-title{ background: url("../images/profesionalisim.png") no-repeat 0px 0px;}
+h5.icon-title.Testimonials{ background: url("../images/testimonials.png") no-repeat 0px 0px;padding-left: 45px;}
+.form-section {background: #fff;width: 100%;height: auto;position: relative;top: -200px;box-shadow: 1px 1px 14px 7px rgba(0,0,0,0.1); padding:30px 50px;}
+.smart-section h4{text-align: center;color: #fff;font-size:35px ;line-height: 65px;font-family: 'SegoeUI-SemiBold';}
+.smart-section p{text-align: center;color: #fff;font-size:31px ;line-height: 45px;font-family: 'SegoeUI-Light'; padding:0px 100px;}
+.smart-section p {text-align: center;color: #fff;font-size: 31px;line-height: 45px;font-family: 'SegoeUI-Light';padding: 0px 180px 30px; }
+section.pricing-section {display: block;clear: both;background: #fff;overflow: auto;padding: 30px 0px 80px; }
+h4.price-title {color: #000;text-align: center;padding: 10px 0px 20px;font-size: 32px;line-height: 65px;font-family: 'SegoeUI-Light'; }
+.block {display: block;margin: 0 auto;overflow: auto; text-align: center;padding:20px 0px;}
+a.consultant { padding: 0px 50px;border: 2px solid #0c74b4; background: #0c74b4; color: #fff;display: inline-block;text-decoration: none;font-size: 17px;line-height: 45px;font-family: 'SegoeUI-Bold';}
+a.consultant:hover { background: #0062a8; color: #fff; text-decoration: none;}
+input[type="submit"]:hover{ background: #0062a8; color: #fff; text-decoration: none;}
+section.footer-top {display: block; overflow: auto;background: #525252;padding: 30px 0px 60px; }
+footer {background: #222222;padding: 15px 0px;color: #fff; }
+.blue .wrapper{background: #0073c6;}
+.blue .wrapper span.price-title {display: block; padding: 30px 0px;color: #fff;font-size: 26px;line-height: 36px;text-align: center;background: #0062a8;}
+.blue .wrapper hr {margin: 0px;border: 0px;border-top: 2px solid #4d9dd7;width: 120px;margin: 0 auto;position: absolute;right: 0;left: 0;top: 94px; }
+.green .wrapper{background: #008272;}
+.green .wrapper span.price-title {display: block; padding: 30px 0px;color: #fff;font-size: 26px;line-height: 36px;text-align: center;background: #006f61;}
+.green .wrapper hr {margin: 0px;border: 0px;border-top: 2px solid #4da89d;width: 120px;margin: 0 auto;position: absolute;right: 0;left: 0;top: 94px; }
+.purple .wrapper{background: #80397b;}
+.purple .wrapper span.price-title {display: block; padding: 30px 0px;color: #fff;font-size: 26px;line-height: 36px;text-align: center;background: #6d3169;}
+.purple .wrapper hr {margin: 0px;border: 0px;border-top: 2px solid #a675a3;width: 120px;margin: 0 auto;position: absolute;right: 0;left: 0;top: 94px; }
+.red .wrapper{background: #c0392b;}
+.red .wrapper span.price-title {display: block; padding: 30px 0px;color: #fff;font-size: 26px;line-height: 36px;text-align: center;background: #ab3326;}
+.red .wrapper hr {margin: 0px;border: 0px;border-top: 2px solid #a675a3;width: 120px;margin: 0 auto;position: absolute;right: 0;left: 0;top: 94px; }
+span.price-box { display: block;text-align: center; padding: 30px 0px 70px; }
+p.number {font-size: 26px;line-height: 36px; color: #fff;font-family: 'SegoeUI-Bold'; }
+.green .wrapper .mailbox{color: #4da89d;}
+.blue .wrapper .mailbox{color: #4d9dd7;}
+.purple .wrapper .mailbox{color: #a675a3;}
+.red .wrapper .mailbox{color: #fff;opacity: 0.4; }
+.mailbox{font-size: 18px;line-height: 36px;font-family: 'SegoeUI-SemiBold';}
+span.price {background: #fff;position: absolute;width: 150px;height: 100px;left: 0;right: 0; box-shadow: 0px 3px 44px 4px rgba(0,0,0,.3);margin: 0 auto;top: 80%; }
+.price-section {padding: 10px 0px 90px; }
+p.price-sub { font-size: 13px;line-height: 36px;color: #666;text-align: center; margin: 0;font-family: 'SEGOEUI-reg';}
+p.cost { font-size: 28px;line-height: 36px;text-align: center;padding: 20px 0px 0;margin: 0; font-family: 'SegoeUI-Bold';}
+sup {top: -0.4em; }
+.blue .wrapper p.cost {color: #0073c6;}
+.green .wrapper p.cost{color: #008272;}
+.purple .wrapper p.cost{color: #80397b;}
+.red .wrapper p.cost{color: #ab3326;}
+h5.foot-title {font-size: 15px;color: #fff; font-family: 'SegoeUI-SemiBold';}
+hr.blue-foot {border-color: #0c74b4;border-top: 2px solid #0c74b4;width: 60px; margin: 15px 0px; }
+ul.foot-list {padding: 0;list-style: none; }
+ul.foot-list li a {color: #ccc;font-size: 14px;line-height: 24px; font-family: 'SEGOEUI-reg'; }
+ul.social-list { padding: 0;list-style: none; }
+ul.social-list li a {border: 1px solid #333333; background: #333333; border-radius: 60px; float: left; width: 45px; height: 45px;margin:0px 5px;}
+.fa { color: #fff; }
+ul.social-list li a:hover .fa { color: #0c74b4; }
+.fa-facebook:before { content: "\f09a";position: absolute;left: 34px;font-size: 25px;top: 47px; }
+.fa-twitter:before {content: "\f099"; position: absolute;left: 87px; font-size: 25px;top: 47px;}
+.fa-linkedin:before{    content: "\f0e1";position: absolute;left: 142px; font-size: 25px;top: 47px;}
+
+.carousel-indicators { bottom: -60px; }
+.carousel-indicators li {display: inline-block;width: 10px; height: 10px; margin: 1px;text-indent: -999px;cursor: pointer; border: 1px solid #ccc;background: #ccc; border-radius: 10px; }
+.carousel-indicators .active { width: 10px; height: 10px; margin: 1px; background-color: #000;border: 1px solid #000; }
+.carousel-inner p{font-size: 19px;line-height: 30px;color:#666;padding-left: 15px; }
+.carousel-inner small{font-size: 14px;line-height: 60px;color:#000;padding-left: 15px;}
+
+.form-section h5{font-size: 20px;line-height: 45px;color:#000;font-family:'SegoeUI-SemiBold';}  
+input[type="text"] {border: none; border-bottom: 1px solid #ccc;width: 100%;margin: 15px 0px;padding: 0px 0px 5px 30px; font-size: 15px;color: #666;font-family: 'SEGOEUI-reg';}
+input[type="email"] {border: none; border-bottom: 1px solid #ccc;width: 100%;margin: 15px 0px;padding: 0px 0px 5px 30px; font-size: 15px;color: #666;font-family: 'SEGOEUI-reg';}
+input[type="url"] {border: none; border-bottom: 1px solid #ccc;width: 100%;margin: 15px 0px;padding: 0px 0px 5px 30px; font-size: 15px;color: #666;font-family: 'SEGOEUI-reg';}
+input[type="text"]:focus {outline:none;} 
+input[type="email"]:focus {outline:none;} 
+input[type="url"]:focus {outline:none;} 
+input[type="submit"] {display:block;background: #0c74b4;border: 1px solid #0c74b4;color: #fff;padding: 10px;width: 100%; margin: 15px 0px 0px; }
+.error_input{ border-bottom:1px solid red !important; }
+input#name ,input#name1 {  background: url("../images/name.png") no-repeat 2px 2px; }
+input#name:active , input#name:focus ,input#name1:active , input#name1:focus {  background: url("../images/name-active.png") no-repeat 2px 2px; }
+input#website , input#website1{ background: url("../images/website.png") no-repeat 2px 2px; }
+input#website:active , input#website:focus ,input#website1:active , input#website1:focus{ background: url("../images/website-active.png") no-repeat 2px 2px; }
+input#email , input#email1 { background: url("../images/email.png") no-repeat 2px 2px; }
+input#email:active , input#email:focus ,input#email1:active , input#email1:focus{ background: url("../images/email-active.png") no-repeat 2px 2px; }
+input#phone , input#phone1{ background: url("../images/mobile.png") no-repeat 2px 2px; }
+input#phone:active , input#phone:focus ,input#phone1:active , input#phone1:focus{ background: url("../images/mobile-active.png") no-repeat 2px 2px; }
+input[type="text"]:focus , input[type="email"]:focus ,input[type="url"]:focus {border-bottom: 1px solid #0c74b4;transition: 0.2s ease; }
+a.consultant.banner { margin: 20px 0px;display: none; }
+label {display: inline-block;margin-bottom: 0px;font-weight: bold;color: red; }
+h4.section-title.center {padding: 0;text-align: center; }
+span.segeo-light.center {display: block;text-align: center;font-size: 25px;padding-bottom: 19px; }
+.home_banner:before{content: '';background: #fff;width: 100%;}
+button.close {padding: 10px;}
+.Testimonials-section { padding: 320px 35px 0px; background: url(../images/stamp.png) no-repeat scroll center 0px;background-size: 280px;}
+.contact-new{font-size: 18px;font-family: 'SEGOEUI-reg'; }
+span.pipe {margin: 0px 10px;font-size: 20px; }
+.center-contact { margin: 20px auto; text-align: center; }
+.thank-sec {padding: 140px 0 145px 0; text-align: center; background: #d24726; color: #fff;}
+/*responsive code starts here*/
+
