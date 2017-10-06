@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
+   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="mobile-web-app-capable" content="yes">
   <title>Commits PWA</title>
+  <link rel="manifest" href="manifest.json">
+  <!-- icon -->
+  <link rel="icon" sizes="192x192" href="images/low-cost.png">
+  <link rel="icon" sizes="128x128" href="images/low-cost.png">
+  <link rel="apple-touch-icon" sizes="128x128" href="images/low-cost.png">
+  <link rel="apple-touch-icon-precomposed" sizes="128x128" href="images/low-cost.png">
+  <!-- icon -->
+
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
@@ -59,8 +70,22 @@
           </svg>
         </div>
 
+        <div class="fab fab__push">
+          <div class="fab__ripple"></div>
+<!--           <img class="fab__image" src="./images/push-off.png" alt="Push Notification" /> -->
+        </div>
       <!-- Toast msg's  -->
-      <div class="toast__container"></div>      
+      <div class="toast__container"></div> 
+      <section class=" card subscription-details js-subscription-details is-invisible">
+      <p>Once you've subscribed your user, you'd send their subscription to your
+      server to store in a database so that when you want to send a message
+      you can lookup the subscription and send a message to it.</p>
+      <p>To simplify things for this code lab copy the following details
+      into the <a href="https://web-push-codelab.appspot.com/">Push Companion
+      Site</a> and it'll send a push message for you, using the application
+      server keys on the site - so make sure they match.</p>
+      <pre><code class="js-subscription-json"></code></pre>
+    </section>     
     </div>
 
 
@@ -70,5 +95,7 @@
   <script src="./js/toast.js"></script>
   <script src="./js/offline.js"></script>
   <script src="./js/menu.js"></script>
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
 </body>
 </html>
