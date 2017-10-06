@@ -7,7 +7,7 @@
   <title>Commits PWA</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
+<body onload="fetchCommits()">
     <div class="app app__layout">
       <header>
         <span class="header__icon">
@@ -16,8 +16,7 @@
           </svg>
         </span>
         <span class="header__title no--select">PWA - Commits</span>
-        <button id="butRefresh" class="headerButton" aria-label="Refresh"></button>
-      </header> 
+      </header>
 
       <div class="menu">
         <div class="menu__header"></div>
@@ -31,26 +30,9 @@
 
       <section class="card_container">
         <h2 style="margin-top:70px;" align="center">Latest Commits!</h2>
+        <section id="card" class="card"></section>
+        <div class="container" id="appendHere"></div>
 
-
-
-        <div class="container">
-            <section class="card first">
-
-            </section>
-            <section class="card second">
-
-            </section>
-            <section class="card third">
-
-            </section>
-            <section class="card fourth">
-
-            </section>
-            <section class="card fifth">
-
-            </section>
-        </div>
       </section>
 
        <div class="loader">
@@ -64,11 +46,12 @@
     </div>
 
 
-
+ <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
   <script src="./js/app.js"></script>
   <script src="./js/latest.js"></script>
   <script src="./js/toast.js"></script>
   <script src="./js/offline.js"></script>
   <script src="./js/menu.js"></script>
+
 </body>
 </html>
