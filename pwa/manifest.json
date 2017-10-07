@@ -1,5 +1,6 @@
 {
   "name": "john Web Application",
+  "short_name":"JWA",
   "icons": [
     {
       "src": "images/app-icon.png",
