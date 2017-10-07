@@ -40,7 +40,7 @@
     }
   ],
   "scope": "/",
-  "start_url":"/index.html",
+  "start_url":"/pwa/index.html",
   "background_color": "#157EFF",
   "theme_color": "#512DA8", 
   "display": "standalone",  
