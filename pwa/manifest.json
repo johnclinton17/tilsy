@@ -40,7 +40,6 @@
     }
   ],
   "scope": "/",
-  "start_url":"http://johnclinton.me/pwa/index.html",
   "background_color": "#157EFF",
   "theme_color": "#512DA8", 
   "display": "standalone",  
