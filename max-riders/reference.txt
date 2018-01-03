@@ -1,0 +1,5 @@
+https://www.jqueryscript.net/lightbox/Gallery-Popup-jQuery-Fs-Gal.html
+http://ianlunn.github.io/Hover/
+https://codepen.io/caraujo/pen/LVPzxO
+http://www.jacklmoore.com/zoom/
+http://www.elevateweb.co.uk/image-zoom/examples
