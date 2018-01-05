@@ -174,11 +174,11 @@ html.swipebox-html.swipebox-touch {
 
 .swipebox-no-touch #swipebox-overlay.rightSpring #swipebox-slider {
   -webkit-animation: rightSpring 0.3s;
-          animation: rightSpring 0.3s;
+          animation: fade 0.3s;
 }
 .swipebox-no-touch #swipebox-overlay.leftSpring #swipebox-slider {
   -webkit-animation: leftSpring 0.3s;
-          animation: leftSpring 0.3s;
+          animation: fade 0.3s;
 }
 
 .swipebox-touch #swipebox-container:before, .swipebox-touch #swipebox-container:after {
@@ -216,9 +216,9 @@ html.swipebox-html.swipebox-touch {
     left: 0;
   }
 
-  50% {
-    left: -30px;
-  }
+  /*50% {
+   left: -30px;
+  }*/
 
   100% {
     left: 0;
@@ -230,9 +230,9 @@ html.swipebox-html.swipebox-touch {
     left: 0;
   }
 
-  50% {
-    left: -30px;
-  }
+   /*50% {
+   left: -30px;
+  } */
 
   100% {
     left: 0;
@@ -243,9 +243,9 @@ html.swipebox-html.swipebox-touch {
     left: 0;
   }
 
-  //50% {
-  //  left: 30px;
-  //}
+   /*50% {
+    left: 30px;
+  } */
 
   100% {
     left: 0;
@@ -256,9 +256,9 @@ html.swipebox-html.swipebox-touch {
     left: 0;
   }
 
-  //50% {
-  //  left: 30px;
-  //}
+   /*50% {
+    left: 30px;
+  } */
 
   100% {
     left: 0;
