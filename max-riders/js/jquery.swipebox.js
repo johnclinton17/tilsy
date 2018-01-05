@@ -384,7 +384,7 @@
 					event.stopPropagation();
 
 					$( '#swipebox-slider' ).css( {
-						'-webkit-transition' : '-webkit-transform 0.4s ease',
+						//'-webkit-transition' : '-webkit-transform 0.4s ease',
 						'transition' : 'transform 0.4s ease'
 					} );
 
@@ -433,7 +433,7 @@
 					}
 
 					$( '#swipebox-slider' ).css( {
-						'-webkit-transform' : 'translate3d(' + currentX + '%, 0, 0)',
+						//'-webkit-transform' : 'translate3d(' + currentX + '%, 0, 0)',
 						'transform' : 'translate3d(' + currentX + '%, 0, 0)'
 					} );
 
