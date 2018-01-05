@@ -352,8 +352,9 @@
 									// Follow gesture
 									$( '#swipebox-overlay' ).removeClass( 'leftSpringTouch' ).removeClass( 'rightSpringTouch' );
 									$( '#swipebox-slider' ).css( {
-										'-webkit-transform' : 'translate3d(' + ( currentX + hDistancePercent ) +'%, 0, 0)',
-										'transform' : 'translate3d(' + ( currentX + hDistancePercent ) + '%, 0, 0)'
+										//'-webkit-transform' : 'translate3d(' + ( currentX + hDistancePercent ) +'%, 0, 0)',
+										//'transform' : 'translate3d(' + ( currentX + hDistancePercent ) + '%, 0, 0)'
+										'transition' :'fadeIn'
 									} );
 								}
 
@@ -367,8 +368,8 @@
 								} else {
 									$( '#swipebox-overlay' ).removeClass( 'leftSpringTouch' ).removeClass( 'rightSpringTouch' );
 									$( '#swipebox-slider' ).css( {
-										'-webkit-transform' : 'translate3d(' + ( currentX + hDistancePercent ) +'%, 0, 0)',
-										'transform' : 'translate3d(' + ( currentX + hDistancePercent ) + '%, 0, 0)'
+										//'-webkit-transform' : 'translate3d(' + ( currentX + hDistancePercent ) +'%, 0, 0)',
+										//'transform' : 'translate3d(' + ( currentX + hDistancePercent ) + '%, 0, 0)'
 									} );
 								}
 
