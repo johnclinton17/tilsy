@@ -296,7 +296,11 @@ $('.video-card').slick({
 <script type="text/javascript">
 ;( function( $ ) {
 
-	$( '.swipebox' ).swipebox();
+	$( '.swipebox' ).swipebox( {
+		initialIndexOnArray : 0, // which image index to init when a array is passed
+		removeBarsOnMobile : false, // false will show top bar on mobile devices
+		hideBarsDelay : 3000, // delay before hiding bars on desktop
+	} );
 
 } )( jQuery );
 </script>
