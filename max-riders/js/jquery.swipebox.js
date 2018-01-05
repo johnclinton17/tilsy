@@ -21,7 +21,7 @@
 				afterMedia: null,
 				nextSlide: null,
 				prevSlide: null,
-				loopAtEnd: true,
+				loopAtEnd: false,
 				autoplayVideos: false,
 				queryStringData: {},
 				toggleClassOnLoad: ''
