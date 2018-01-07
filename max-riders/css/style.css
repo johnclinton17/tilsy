@@ -3,6 +3,7 @@
 body{font-family: 'Lato', sans-serif;font-family: 'Titillium Web', sans-serif;background: #121212}
 .col-centered{float:none !important;margin:0 auto;}
 .center{margin:0 auto;display:block;}
+.navbar-nav { float: left;margin: 0 60px;}
 .navbar-brand{float:left;padding:35px 15px;font-size:18px;line-height:20px;width:78px;height:100px;background-image:url(../images/logo.png);background-repeat:no-repeat;background-position:center;background-size:cover;}
 nav.navbar.navbar-default{background:rgba(0,0,0,.5);border:none;margin-bottom:0px;border-radius:0;padding: 10px 0px;}
 .navbar>.container .navbar-brand{margin-left:unset;margin-right: 50px;}
@@ -17,7 +18,7 @@ a.rent-button {padding: 5px 15px;background: #ff2424;color: #fff;display: block;
 a.rent-button:hover {background: #e21b1b;color: #fff;transition: 0.3s ease;text-decoration: none;}
 .home_header  {position: fixed;top: 0;transition: top 0.2s ease-in-out;width: 100%;height: 80px;z-index: 999;}
 .nav-up {top: -115px; }
-nav.navbar.navbar-default .nav li a{color:#fff;font-size:16px;text-transform:uppercase;font-family: 'Titillium Web', sans-serif;padding:0px 10px;margin:10px 0px;line-height:18px;}
+nav.navbar.navbar-default .nav li a{color:#fff;font-size:16px;text-transform:uppercase;font-family: 'Titillium Web', sans-serif;padding:0px 15px;margin:10px 0px;line-height:18px;}
 nav.navbar.navbar-default .nav li a:hover{color:#ff2424;}
 .navbar-nav li{padding:15px 0px;}
 .navbar-default .navbar-toggle{border-color:transparent;background:transparent;}
@@ -82,7 +83,7 @@ section.video-section { padding: 30px 0px 20px;}
 .upcoming-card {border: 1px solid #ff2424;display: block;overflow: auto;}
 .upcoming-card .card-image img { width: 100%;}
 .upcoming-card .card-content { background: #e7e7e7;padding: 10px 10px;transition: 0.2s ease}
-.upcoming-card .card-content .title{color: #000;font-size: 24px;font-weight: 600;font-family: 'Titillium Web', sans-serif;display: block; }
+.upcoming-card .card-content .title{color: #000;font-size: 24px;font-weight: 600;font-family: 'Titillium Web', sans-serif;display: block; transition: 0.2 ease;}
 .upcoming-card .card-content .date{transition:0.2s ease;color: #666;font-size: 14px;font-weight: 300;font-family: 'Lato', sans-serif;display: block;padding: 5px 0 5px 25px;background: url(../images/date-icon.png)no-repeat 0 3px ; }
 .upcoming-card .card-content .grey-text{transition:0.2s ease;color: #666;font-size: 14px;font-weight: 300;font-family: 'Lato', sans-serif;display: block;padding: 5px 0 5px 5px;}
 .upcoming-sec .column4:first-child{margin: 0px 10px 0px 0px }
@@ -90,8 +91,9 @@ section.video-section { padding: 30px 0px 20px;}
 .upcoming-sec .column4:last-child{margin: 0px 0px 0px 10px }
 .column4 {width: 32%;float: left;}
 .upcoming-card:hover .card-content {background: #ff2424;display: block;transition: 0.2s ease;}
-.upcoming-card:hover .card-content .date{color: #000;background: url(../images/date-icon-black.png)no-repeat 0 3px ; transition: 0.2s ease}
-.upcoming-card:hover .card-content .grey-text{color: #000; transition: 0.2s ease}
+.upcoming-card:hover .card-content .title{color: #fff;transition: 0.2s ease}
+.upcoming-card:hover .card-content .date{color: #fff;background: url(../images/date-icon-white.png)no-repeat 0 3px ; transition: 0.2s ease}
+.upcoming-card:hover .card-content .grey-text{color: #fff; transition: 0.2s ease}
 .button-row { margin: 40px 0px 15px;display: block;overflow: auto;clear: both;text-align: center;}
 a.upcoming-button {font-size: 20px;padding:10px 90px 10px 50px;border: 1px solid #f28d00;color: #f28d00;font-family: 'Lato', sans-serif;font-weight: 700;background: url(../images/button-icon.png) no-repeat 90% center,url(../images/button-icon-more.png) no-repeat 15px center;display: inline-block;}
 a.upcoming-button.hvr-sweep-to-right {display: inline-block;vertical-align: middle;-webkit-transform: perspective(1px) translateZ(0);transform: perspective(1px) translateZ(0);box-shadow: 0 0 1px transparent;position: relative;-webkit-transition-property: color;transition-property: color;-webkit-transition-duration: 0.2s;transition-duration: 0.2s;}
@@ -170,6 +172,7 @@ a.upcoming-button.hvr-sweep-to-right:hover:before, a.upcoming-button.hvr-sweep-t
 .navbar-brand{float:left;padding:32px 0px;font-size:18px;line-height:20px;width:50px;height:29px;}
 nav.navbar.navbar-default .nav li a{color:#fff;font-size:11px;padding:0px 5px;margin:10px 0px;}
 .navbar>.container .navbar-brand {margin-left: unset; margin-right: 35px;}
+.navbar-nav { float: left; margin: 0 0px;}
 p.flex-caption{margin-left: 100px;}
 span.about-content { padding: 30px 0px;}
 .video-card .card { width: 329px;height: 235px;}
@@ -195,6 +198,7 @@ nav.navbar.navbar-default .nav li a{border-right:none;}
 .social-menu{display: none;}
 .rent-div {margin: 10px 5px;}
 .navbar-default .navbar-collapse, .navbar-default .navbar-form { border-color: #666;}
+.navbar-nav {float: left; margin: 0 0px;}
 }
 
 @media(max-width:667px){}
